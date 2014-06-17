@@ -1,5 +1,5 @@
 {
-    "name": "Uriziel01/php-money",
+    "name": "uriziel01/php-money",
     "description": "PHP money handling class",
     "type": "library",
     "keywords": [ "Money", "Value Object"],
