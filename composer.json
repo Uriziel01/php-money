@@ -1,31 +1,39 @@
 {
-  "repositories": [
-    {
-        "type": "package",
-        "name": "Uriziel01/php-money",
-        "package": {
-            "name": "Uriziel01/php-money",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/Uriziel01/php-money",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Uriziel01\\PhpMoney" : "src"
-                }
-            }
+    "name": "Uriziel01/php-money",
+    "description": "PHP money handling class",
+    "type": "library",
+    "keywords": [ "Money", "Value Object"],
+    "homepage": "http://github.com/Uriziel01/php-money",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Borecki",
+            "email": "p.borecki90@gmail.com"
         }
-    }
-  ],
-  "require": {
-    "behat/behat": "2.4.*@stable",
-    "behat/mink": "1.5.*@stable",
-    "behat/mink-goutte-driver": "*",
-    "behat/mink-extension": "*",
-    "behat/mink-selenium2-driver": "*",
-    "behat/mink-browserkit-driver": "*",
-    "phpunit/phpunit": "3.7.*"
-  }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.5.*@stable",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-selenium2-driver": "*",
+        "behat/mink-browserkit-driver": "*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Uriziel01\\PhpMoney": "lib"
+        }
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
 }
