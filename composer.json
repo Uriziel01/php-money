@@ -2,6 +2,7 @@
   "repositories": [
     {
         "type": "package",
+        "name": "Uriziel01/php-money",
         "package": {
             "name": "Uriziel01/php-money",
             "version": "dev-master",
