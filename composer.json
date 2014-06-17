@@ -1,4 +1,23 @@
 {
+  "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "Uriziel01/php-money",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/Uriziel01/php-money",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Uriziel01\\PhpMoney" : "src"
+                }
+            }
+        }
+    }
+  ],
   "require": {
     "behat/behat": "2.4.*@stable",
     "behat/mink": "1.5.*@stable",
@@ -6,10 +25,6 @@
     "behat/mink-extension": "*",
     "behat/mink-selenium2-driver": "*",
     "behat/mink-browserkit-driver": "*",
-    "phpunit/phpunit": "3.7.*",
-  },
-  "minimum-stability": "dev",
-  "config": {
-  	"bin-dir": "bin/"
+    "phpunit/phpunit": "3.7.*"
   }
 }
